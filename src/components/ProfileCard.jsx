@@ -43,7 +43,7 @@ const ProfileCard = () => {
         initial={{ opacity: 0, scale: 0.8, x: 50 }}
         animate={{ opacity: 1, scale: 1, x: 0 }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-        className="relative w-[340px] h-[520px] rounded-[2.5rem] bg-white p-[5px] shadow-[0_20px_50px_rgba(0,0,0,0.3)] dark:shadow-[0_20px_50px_rgba(0,255,220,0.15)] cursor-pointer"
+        className="relative w-[90vw] max-w-[340px] h-[420px] sm:h-[520px] rounded-[2.5rem] bg-white p-[5px] shadow-[0_20px_50px_rgba(0,0,0,0.3)] dark:shadow-[0_20px_50px_rgba(0,255,220,0.15)] cursor-pointer"
       >
         <div 
           className="relative w-full h-full rounded-[2.3rem] overflow-hidden bg-[#57606f]"

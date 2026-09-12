@@ -60,7 +60,7 @@ const Contact = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-5xl md:text-7xl lg:text-[5.5rem] font-black font-sans uppercase tracking-tight text-center mb-16 md:mb-24 dark:text-white text-slate-900 leading-[0.9]"
+          className="text-4xl sm:text-5xl md:text-7xl lg:text-[5.5rem] font-black font-sans uppercase tracking-tight text-center mb-12 md:mb-24 dark:text-white text-slate-900 leading-[0.9]"
           style={{ textShadow: "0 10px 40px rgba(0,0,0,0.4)" }}
         >
           Let's Build<br />Together

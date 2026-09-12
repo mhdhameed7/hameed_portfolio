@@ -184,7 +184,7 @@ export default function TechStack() {
       <div
         ref={containerRef}
         className="relative w-full flex items-center justify-center select-none mx-auto"
-        style={{ height: "460px", cursor: "grab", maxWidth: "420px" }}
+        style={{ height: "460px", cursor: "grab", maxWidth: "100%" }}
         onMouseDown={onMouseDown}
         onTouchStart={onTouchStart}
         onTouchMove={onTouchMove}
@@ -202,11 +202,12 @@ export default function TechStack() {
         />
 
         {/* 3D Scene */}
-        <div
-          ref={sceneRef}
-          className="relative scale-75 md:scale-100"
-          style={{ width: "420px", height: "420px" }}
-        >
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center w-full h-full pointer-events-none">
+          <div
+            ref={sceneRef}
+            className="relative scale-[0.55] sm:scale-75 md:scale-100 pointer-events-auto origin-center"
+            style={{ width: "420px", height: "420px", flexShrink: 0 }}
+          >
           {techStack.map((tech, i) => (
             <div
               key={tech.name}
@@ -250,6 +251,7 @@ export default function TechStack() {
               </div>
             </div>
           ))}
+          </div>
         </div>
 
       </div>
