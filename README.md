@@ -27,8 +27,8 @@ To run this project locally on your machine, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/mhdhameed7/hameed-portfolio.git
-   cd hameed-portfolio
+   git clone https://github.com/mhdhameed7/hameed_portfolio.git
+   cd hameed_portfolio
    ```
 
 2. **Install dependencies:**
